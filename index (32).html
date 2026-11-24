@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>TEZRO SEED | Rice, Cotton & Wheat Seeds – Rahim Yar Khan</title>
+<meta name="description" content="Tezro Seed – quality rice, cotton and wheat seed solutions, field trials and breeding programs in Rahim Yar Khan, Punjab, Pakistan.">
+<link rel="icon" href="https://tezroseed.com/wp-content/uploads/2026/03/TezRo-Final_Logo-removebg-preview-e1773430720487.png">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;700&family=Outfit:wght@300;400;600&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#06110b;--bg2:#0b1c12;--card:rgba(255,255,255,.05);--g:#3ddc84;--g2:#12a150;--gold:#e0b84c;--tx:#e9f3ec;--mut:#9db3a5;--line:rgba(255,255,255,.1)}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:Outfit,sans-serif;background:var(--bg);color:var(--tx);overflow-x:hidden;line-height:1.7}
+::selection{background:var(--g);color:#04130a}
+::-moz-selection{background:var(--g);color:#04130a}
+h1,h2,h3{font-family:'Cormorant Garamond',serif;line-height:1.15}
+a{color:inherit;text-decoration:none}
+img{max-width:100%;display:block}
+#bg{position:fixed;inset:0;z-index:-2;background:radial-gradient(circle at 50% 30%,#0f2a1a,#040906 70%)}
+#vid{position:fixed;inset:0;width:100%;height:100%;object-fit:cover;z-index:-3;opacity:.35;display:none}
+.shade{position:fixed;inset:0;z-index:-1;background:linear-gradient(180deg,rgba(6,17,11,.35),rgba(6,17,11,.8))}
+/* loader */
+#loader{position:fixed;inset:0;z-index:999;background:#04090a;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:22px;transition:opacity .8s,visibility .8s;perspective:900px}
+#loader.done{opacity:0;visibility:hidden}
+#loader img{width:min(320px,70vw);background:#fff;padding:16px 24px;border-radius:22px;animation:spin3d 2.2s ease-in-out infinite;filter:drop-shadow(0 0 30px rgba(61,220,132,.6))}
+#loader p{letter-spacing:.5em;font-size:.8rem;color:var(--g)}
+.bar{width:220px;height:3px;background:var(--line);overflow:hidden;border-radius:9px}
+.bar i{display:block;height:100%;width:0;background:linear-gradient(90deg,var(--g2),var(--gold));animation:load 2s forwards}
+@keyframes load{to{width:100%}}
+@keyframes spin3d{0%{transform:rotateY(-35deg) rotateX(8deg)}50%{transform:rotateY(35deg) rotateX(-8deg)}100%{transform:rotateY(-35deg) rotateX(8deg)}}
+/* header */
+header{position:fixed;top:0;left:0;right:0;z-index:100;display:flex;align-items:center;justify-content:space-between;padding:10px 5%;background:rgba(6,17,11,.72);backdrop-filter:blur(16px);border-bottom:1px solid var(--line)}
+.brand{display:flex;align-items:center;gap:12px}
+.brand img{height:58px;width:auto;background:#fff;padding:4px 10px;border-radius:12px;box-shadow:0 0 18px rgba(61,220,132,.35)}
+.brand b{font-family:'Cormorant Garamond',serif;font-size:1.6rem;letter-spacing:.18em;background:linear-gradient(90deg,var(--g),var(--gold));-webkit-background-clip:text;background-clip:text;color:transparent}
+.brand small{display:block;font-size:.62rem;letter-spacing:.35em;color:var(--mut);margin-top:-6px}
+nav{display:flex;gap:6px;align-items:center}
+nav a,.dd>span{padding:9px 15px;border-radius:30px;font-size:.92rem;cursor:pointer;transition:.3s;display:block}
+nav a:hover,.dd>span:hover,nav a.on{background:rgba(61,220,132,.14);color:var(--g)}
+.dd{position:relative}
+.dd .menu{position:absolute;top:100%;left:0;min-width:240px;background:rgba(8,22,14,.97);border:1px solid var(--line);border-radius:16px;padding:8px;opacity:0;visibility:hidden;transform:translateY(12px) rotateX(-12deg);transform-origin:top;transition:.3s}
+.dd:hover .menu{opacity:1;visibility:visible;transform:none}
+#burger{display:none;background:none;border:0;color:var(--g);font-size:2rem;cursor:pointer}
+/* layout */
+main{padding-top:80px;min-height:100vh}
+section{padding:90px 5%;max-width:1300px;margin:auto}
+.tag{color:var(--gold);letter-spacing:.3em;font-size:.75rem;text-transform:uppercase}
+h2{font-size:clamp(2rem,4vw,3.2rem);margin:8px 0 14px}
+h2 em,.hero h1 em{font-style:normal;background:linear-gradient(90deg,var(--g),var(--gold));-webkit-background-clip:text;background-clip:text;color:transparent}
+.lead{color:var(--mut);max-width:680px}
+.center{text-align:center}.center .lead{margin:auto}
+.btn{display:inline-block;padding:14px 34px;border-radius:40px;background:linear-gradient(135deg,var(--g),var(--g2));color:#03140a;font-weight:600;border:0;cursor:pointer;transition:.3s;box-shadow:0 10px 30px rgba(61,220,132,.25);font:600 1rem Outfit}
+.btn:hover{transform:translateY(-4px) scale(1.04);box-shadow:0 16px 40px rgba(61,220,132,.4)}
+.btn.o{background:transparent;border:1px solid var(--gold);color:var(--gold);box-shadow:none}
+/* hero */
+.hero{min-height:calc(100vh - 80px);display:grid;grid-template-columns:1.1fr 1fr;gap:50px;align-items:center;perspective:1200px}
+.hero h1{font-size:clamp(2.6rem,6vw,5rem);margin:12px 0 20px}
+.hero .btns{display:flex;gap:16px;flex-wrap:wrap;margin-top:30px}
+.hero-img{position:relative;transform-style:preserve-3d;transition:transform .15s}
+.hero-img img{border-radius:28px;border:1px solid var(--line);box-shadow:0 40px 90px rgba(0,0,0,.6),0 0 60px rgba(61,220,132,.2);aspect-ratio:4/3;object-fit:cover;width:100%;transform:translateZ(40px)}
+.hero-img:before{content:"";position:absolute;inset:-14px;border:1px solid var(--gold);border-radius:34px;opacity:.5;transform:translateZ(-30px)}
+.float{position:absolute;padding:12px 20px;border-radius:16px;background:rgba(8,22,14,.85);border:1px solid var(--line);backdrop-filter:blur(10px);transform:translateZ(90px);animation:fl 4s ease-in-out infinite;font-size:.85rem}
+.float b{color:var(--g);display:block;font-size:1.3rem;font-family:'Cormorant Garamond'}
+@keyframes fl{50%{margin-top:-14px}}
+/* cards */
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:26px;margin-top:46px;perspective:1200px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:24px;overflow:hidden;backdrop-filter:blur(8px);transition:transform .2s,border-color .3s;transform-style:preserve-3d;display:flex;flex-direction:column}
+.card:hover{border-color:var(--g)}
+.card img{height:210px;width:100%;object-fit:cover;transition:.6s}
+.card:hover img{transform:scale(1.1)}
+.card .im{overflow:hidden}
+.card .bd{padding:24px;flex:1;display:flex;flex-direction:column;gap:8px}
+.card h3{font-size:1.6rem;color:var(--g)}
+.card p{color:var(--mut);font-size:.95rem;flex:1}
+.card a.more{color:var(--gold);font-weight:600;margin-top:8px}
+.ic{font-size:2rem}
+.card.pad{padding:28px}
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:20px;margin-top:40px}
+.stats div{text-align:center;padding:26px;border:1px solid var(--line);border-radius:20px;background:var(--card)}
+.stats b{font-size:2.6rem;font-family:'Cormorant Garamond';color:var(--g)}
+.split{display:grid;grid-template-columns:1fr 1fr;gap:50px;align-items:center}
+.split img{border-radius:26px;border:1px solid var(--line);box-shadow:0 30px 70px rgba(0,0,0,.5)}
+ul.chk{list-style:none;margin:18px 0}
+ul.chk li{padding:6px 0 6px 32px;position:relative}
+ul.chk li:before{content:"✦";position:absolute;left:0;color:var(--g)}
+/* reveal */
+.rv{opacity:0;transform:perspective(900px) translateY(60px) rotateX(18deg) scale(.96);transition:1s cubic-bezier(.2,.8,.2,1)}
+.rv.in{opacity:1;transform:none}
+/* page hero */
+.ph{min-height:55vh;display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center;padding:60px 5%;position:relative}
+.ph h1{font-size:clamp(2.4rem,6vw,4.6rem)}
+.ph p{max-width:680px;color:var(--mut);margin-top:12px}
+.banner{width:100%;max-height:420px;object-fit:cover;border-radius:28px;border:1px solid var(--line);margin-bottom:40px}
+/* faq */
+.faq{border:1px solid var(--line);border-radius:18px;margin-bottom:14px;background:var(--card);overflow:hidden}
+.faq button{width:100%;text-align:left;background:none;border:0;color:var(--tx);padding:20px 24px;font:500 1.05rem Outfit;cursor:pointer;display:flex;justify-content:space-between}
+.faq button:after{content:"+";color:var(--g);font-size:1.5rem;transition:.3s}
+.faq.open button:after{transform:rotate(45deg)}
+.faq div{max-height:0;overflow:hidden;padding:0 24px;color:var(--mut);transition:.4s}
+.faq.open div{max-height:200px;padding:0 24px 20px}
+.stars{color:var(--gold);letter-spacing:3px}
+.gal{columns:3 260px;gap:18px;margin-top:40px}
+.gal figure{margin-bottom:18px;border-radius:20px;overflow:hidden;position:relative;border:1px solid var(--line)}
+.gal img{width:100%;transition:.6s}
+.gal figure:hover img{transform:scale(1.1)}
+.gal figcaption{position:absolute;bottom:0;left:0;right:0;padding:16px;background:linear-gradient(transparent,rgba(0,0,0,.85));color:var(--g)}
+form{display:grid;gap:14px}
+input,textarea,select{width:100%;padding:15px 18px;border-radius:14px;background:rgba(255,255,255,.06);border:1px solid var(--line);color:var(--tx);font:400 1rem Outfit;outline:none}
+input:focus,textarea:focus{border-color:var(--g)}
+.blog h1{font-size:clamp(1.9rem,4vw,3rem);margin:10px 0 26px;color:var(--g)}
+.blog h2{font-size:2rem;margin:40px 0 12px;color:var(--gold)}
+.blog h3{font-size:1.4rem;margin:26px 0 6px;color:var(--g)}
+.blog p{color:var(--mut);margin-bottom:14px}
+.blog p a,.blog li a{color:var(--g);border-bottom:1px dashed var(--g)}
+.blog li b{color:var(--tx)}.blog li{color:var(--mut)}
+/* footer */
+footer{background:rgba(3,10,6,.92);border-top:1px solid var(--line);padding:70px 5% 24px;margin-top:60px}
+.fg{max-width:1300px;margin:auto;display:grid;grid-template-columns:1.2fr .8fr 1.2fr 1.3fr;gap:36px}
+footer h4{color:var(--gold);margin-bottom:14px;letter-spacing:.15em;font-size:.9rem}
+footer li{list-style:none;margin:8px 0;color:var(--mut);font-size:.93rem}
+footer li a:hover{color:var(--g)}
+footer iframe{width:100%;height:200px;border:0;border-radius:16px;filter:grayscale(.4) invert(.9) hue-rotate(120deg)}
+footer .logo{height:90px;width:auto;margin-bottom:12px;background:#fff;padding:6px 14px;border-radius:14px}
+.copy{text-align:center;color:var(--mut);font-size:.82rem;margin-top:40px;padding-top:20px;border-top:1px solid var(--line)}
+@media(max-width:900px){
+ .hero,.split{grid-template-columns:1fr}.fg{grid-template-columns:1fr 1fr}
+ #burger{display:block}
+ nav{position:fixed;top:78px;left:0;right:0;flex-direction:column;align-items:stretch;background:rgba(6,17,11,.98);padding:16px;max-height:0;overflow:hidden;opacity:0;transition:.4s}
+ nav.open{max-height:90vh;opacity:1;overflow:auto}
+ .dd .menu{position:static;opacity:1;visibility:visible;transform:none;background:none;border:0;padding-left:14px}
+}
+@media(max-width:560px){.fg{grid-template-columns:1fr}.brand b{font-size:1.2rem}.brand img{height:46px}}
+</style>
+</head>
+<body>
+<video id="vid" autoplay muted loop playsinline></video>
+<canvas id="bg"></canvas><div class="shade"></div>
+
+<div id="loader"><img src="https://tezroseed.com/wp-content/uploads/2026/03/TezRo-Final_Logo-removebg-preview-e1773430720487.png" alt="TEZRO SEED logo"><p>TEZRO SEED</p><div class="bar"><i></i></div></div>
+
+<header>
+ <a href="#/" class="brand"><img src="https://tezroseed.com/wp-content/uploads/2026/03/TezRo-Final_Logo-removebg-preview-e1773430720487.png" alt="TEZRO SEED logo"><div><b>TEZRO SEED</b><small>DIGITAL AGRICULTURE</small></div></a>
+ <button id="burger" aria-label="Menu">☰</button>
+ <nav id="nav"></nav>
+</header>
+
+<main id="app"></main>
+
+<footer id="foot"></footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+<script>
+/* ============ CONFIG ============ */
+const VIDEO_URL = ""; // Optional: put your own 4K .mp4 URL here for a video background
+const B={name:"TEZRO SEED",phone:"+92 303 3214681",tel:"+923033214681",email:"info@tezroseed.com",
+addr:"Main KLP Road, Zahir Peer, District Rahim Yar Khan, Punjab, Pakistan.",hours:"Mon – Sun: 10:00 AM – 8:00 PM",
+logo:"https://tezroseed.com/wp-content/uploads/2026/03/TezRo-Final_Logo-removebg-preview-e1773430720487.png"};
+const S=[
+{id:"rice",t:"Rice",ic:"🌾",img:"https://tezroseed.com/wp-content/uploads/2026/03/RICE.jpg",s:"High-yield, tested rice seed varieties suited to local growing conditions.",
+ p:"Our rice seed is selected, tested and verified for purity, germination strength and uniform growth, giving farmers a dependable start to every season.",
+ f:["Verified purity & germination","Varieties for local climate & water conditions","Uniform, vigorous crop establishment","Field-trial backed performance"]},
+{id:"cotton",t:"Cotton",ic:"☁️",img:"https://tezroseed.com/wp-content/uploads/2026/04/cotton-4649804_1280.jpg",s:"Quality cotton seed focused on strong fibre, resilience and productive harvests.",
+ p:"Cotton is the backbone of Punjab's economy. Tezro Seed develops and supplies cotton seed screened through research-driven testing to support healthy plants and better boll setting.",
+ f:["Strong plant vigour","Resilience to field stress","Fibre quality focus","Guidance from sowing to picking"]},
+{id:"wheat",t:"Wheat",ic:"🌿",img:"https://tezroseed.com/wp-content/uploads/2026/03/TezRo-Intro.png",s:"Reliable wheat seed for consistent stands, grain quality and strong yields.",
+ p:"Our wheat programme concentrates on clean, certified-quality seed with consistent germination, helping farmers achieve strong stands and dependable grain output.",
+ f:["Clean, graded seed","Consistent germination","Suited to Rabi sowing windows","Trial-proven yield potential"]},
+{id:"field-trials",t:"Field Trials",ic:"🔬",img:"https://avatars.mds.yandex.net/i?id=1fdeb8de8d729bf4c88e2949ed7d31b3d11ed966-12202401-images-thumbs&n=13",s:"Systematic on-field testing that proves seed performance before it reaches you.",
+ p:"We test varieties across multiple fields and conditions, recording emergence, growth, disease tolerance and yield so every recommendation is backed by real data.",
+ f:["Multi-location testing","Data-driven variety selection","Seed testing processes","Farmer demonstration plots"]},
+{id:"agriculture-services",t:"Agriculture Services",ic:"🚜",img:"https://avatars.mds.yandex.net/i?id=b1d129e148839f0f5879dd23db7a653c04c3d07c-4323870-images-thumbs&n=13",s:"Practical advisory and support to help farmers grow better and harvest more.",
+ p:"Beyond seed, we support farmers with crop planning, sowing advice and modern farming practices so every acre performs to its potential.",
+ f:["Crop planning advice","Seed selection guidance","Modern farming practices","On-ground farmer support"]},
+{id:"breeding-programs",t:"Breeding Programs",ic:"🧬",img:"https://uploads.wefunder.com/uploads/image_upload/file/1431559/image.png",s:"Advanced breeding and international partnerships to develop superior varieties.",
+ p:"Through advanced breeding programs and international partnerships, we work to develop stronger, more productive and climate-resilient varieties for tomorrow's farms.",
+ f:["Advanced breeding techniques","International partnerships","Climate-resilient traits","Continuous variety improvement"]}];
+const FAQ=[["Which crops does Tezro Seed specialise in?","We specialise in rice, cotton and wheat seed, supported by field trials, breeding programs and agriculture services."],
+["How is seed quality ensured?","Through reliable seed testing processes, multi-location field trials and research-driven breeding programs."],
+["Where are you located?","Main KLP Road, Zahir Peer, District Rahim Yar Khan, Punjab, Pakistan."],
+["What are your working hours?","We are open every day, Monday to Sunday, from 10:00 AM to 8:00 PM."],
+["How can I place an order or get advice?","Call +92 303 3214681, email info@tezroseed.com or use the Contact Us page."]];
+const REV=[["Muhammad Aslam","Rice Farmer, Zahir Peer","Germination was excellent and the crop stand was uniform across my fields. Highly recommended."],
+["Ch. Imran","Cotton Grower, Rahim Yar Khan","Their team guided me on variety selection and the season's cotton harvest was our best in years."],
+["Rana Tariq","Wheat Farmer, Khanpur","Clean seed, honest advice and real field-trial results. Tezro Seed is now my first choice."]];
+const GAL=S.map(x=>[x.img,x.t]);
+const BLOG_T="Agriculture Services in Rahim Yar Khan, PK: Improving Crop Quality Through Modern Farming Practices";
+const BLOG=`Agriculture plays an important role in the economy of Rahim Yar Khan, Punjab, Pakistan. Farmers across the region depend on healthy seeds, suitable crop varieties, and reliable farming practices to achieve better yields. With changing weather conditions, soil variations, and increasing agricultural demands, selecting the right seed varieties has become more important than ever. Modern [breeding programs in Rahim Yar Khan, PK](https://tezroseed.com/) help farmers and agricultural professionals develop improved crop varieties that offer better quality, stronger growth, and greater adaptability to local farming conditions.
+
+In addition to crop improvement, proper seed evaluation is essential before seeds reach the fields. The Seed Testing Process in Rahim Yar Khan, PK helps assess seed quality, germination potential, physical purity, and overall suitability for agricultural use. Combining effective breeding programs with reliable seed testing can support farmers in making informed decisions and improving their farming results.
+
+# Understanding Agricultural Breeding Programs
+
+Agricultural breeding programs are organised activities designed to develop and improve crop varieties through the selection and evaluation of desirable plant characteristics. These programs focus on producing seeds that can perform well under different environmental and agricultural conditions.
+
+Plant breeders study various crop characteristics, including growth patterns, maturity periods, grain quality, disease resistance, and production potential. By selecting plants with beneficial traits and using controlled breeding techniques, they work towards developing improved varieties that meet farmers' requirements.
+
+In Rahim Yar Khan, where agriculture includes crops such as cotton, wheat, and rice, breeding programs can contribute to developing varieties suitable for regional growing conditions. These initiatives also help support long-term agricultural development by encouraging better seed quality and improved crop performance.
+
+# Importance of Breeding Programs in Rahim Yar Khan
+
+Rahim Yar Khan has an important agricultural landscape supported by farming communities, irrigation facilities, and fertile agricultural areas. However, farmers face several challenges, including changing temperatures, water availability, soil conditions, and crop diseases.
+
+Well-planned breeding programs can help address these challenges by developing crop varieties with characteristics suited to local requirements. Some important benefits include:
+
+- **Improved Crop Performance:** Selecting suitable plant varieties can help farmers achieve more consistent crop growth.
+- **Disease Resistance:** Breeding efforts can focus on developing plants with improved resistance to common crop diseases.
+- **Environmental Adaptability:** Improved varieties can be selected for their ability to perform under different temperature and moisture conditions.
+- **Better Crop Quality:** Breeding programs can improve grain characteristics, fibre quality, and other valuable agricultural traits.
+- **Agricultural Sustainability:** Developing suitable crop varieties can support more efficient use of available farming resources.
+
+These benefits make crop improvement an important part of modern agricultural planning in Rahim Yar Khan.
+
+# Major Stages of Agricultural Breeding Programs
+
+Successful breeding programs involve several stages. Each stage contributes to identifying useful plant characteristics and developing improved seed varieties.
+
+## 1. Selection of Parent Plants
+
+The first stage involves selecting parent plants with desirable characteristics. Breeders examine different plant varieties and identify those that demonstrate useful traits, such as healthy growth, good production potential, suitable maturity periods, and disease tolerance.
+
+Choosing suitable parent plants provides the foundation for developing improved crop varieties.
+
+## 2. Controlled Cross-Pollination
+
+Cross-pollination is used to combine desirable characteristics from two selected parent plants. This technique allows breeders to introduce different genetic traits into new plant generations.
+
+The resulting seeds are grown and evaluated to identify plants that show promising characteristics. Careful selection helps breeders work towards their specific crop improvement objectives.
+
+## 3. Field Trials and Evaluation
+
+Field trials allow agricultural researchers to examine how different crop varieties perform under actual farming conditions. These trials may evaluate plant height, maturity, crop development, disease response, and production characteristics.
+
+Testing varieties in different locations can also help identify which plants are more suitable for particular agricultural environments.
+
+## 4. Variety Selection and Improvement
+
+After evaluating the results, breeders select promising plants for further improvement. This process may continue over several growing seasons until a variety demonstrates the required characteristics.
+
+Proper documentation and repeated evaluation help maintain consistency throughout the breeding process.
+
+# Role of Seed Testing in Agricultural Development
+
+Developing an improved crop variety is only one part of producing quality agricultural seeds. Seeds must also undergo proper testing to determine whether they meet relevant quality standards.
+
+The Seed Testing Process in Rahim Yar Khan, PK plays an important role in evaluating seed quality before planting. Seed testing provides useful information about germination, physical purity, moisture content, and other important characteristics.
+
+For farmers, these assessments help reduce uncertainty when selecting seeds for different crops. For agricultural businesses and seed suppliers, testing supports quality control and responsible seed distribution.
+
+# Understanding the Seed Testing Process in Rahim Yar Khan, PK
+
+Seed testing involves a series of laboratory procedures used to assess the physical and biological quality of seed samples. The specific tests depend on the crop type, testing requirements, and applicable standards.
+
+## 1. Seed Sample Collection
+
+The process begins with collecting a representative seed sample from a particular seed lot. Proper sampling is essential because laboratory results are only useful when the sample accurately represents the larger quantity of seeds.
+
+Samples should be collected, labelled, and handled carefully to prevent contamination or unnecessary damage.
+
+## 2. Physical Purity Testing
+
+Physical purity testing identifies the composition of a seed sample. Laboratory personnel separate pure seeds from unwanted materials, including weed seeds, broken seeds, and other foreign matter.
+
+This assessment helps determine the percentage of pure seed present in the sample and provides useful information about its physical condition.
+
+## 3. Germination Testing
+
+Germination testing measures the ability of seeds to develop into normal seedlings under suitable testing conditions.
+
+A selected number of seeds are placed in an appropriate germination environment with controlled moisture, temperature, and other required conditions. After the testing period, the resulting seedlings are evaluated.
+
+Germination results help farmers and seed suppliers understand the potential of a seed lot to produce healthy plants.
+
+## 4. Moisture Content Analysis
+
+Seed moisture content is another important factor in seed quality management. Excessive moisture during storage can encourage fungal development and reduce seed viability.
+
+Laboratory moisture analysis helps determine whether seeds have an appropriate moisture level for storage and handling according to the requirements of the particular crop.
+
+## 5. Seed Health Assessment
+
+Seed health testing examines whether seed samples contain certain seed-borne pathogens or other biological contaminants.
+
+This assessment can help identify potential risks before seeds are distributed or planted. Appropriate testing methods depend on the crop, suspected disease, and applicable laboratory procedures.
+
+# How Breeding Programs and Seed Testing Work Together
+
+Breeding programs and seed testing are closely connected. While breeding focuses on developing improved crop varieties, seed testing evaluates the quality of the seeds produced from those varieties.
+
+For example, a breeding program may develop a wheat variety with desirable maturity characteristics and improved disease tolerance. Once suitable seed material is produced, laboratory testing can assess its physical purity, germination capacity, and moisture content.
+
+This combination provides a more complete approach to seed quality management.
+
+In Rahim Yar Khan, agricultural businesses, seed producers, and farming communities can benefit from understanding both processes. Better coordination between crop improvement and seed quality assessment can help support responsible agricultural practices.
+
+# Important Crops Supported by Breeding and Seed Quality Programs
+
+Different crops require different breeding objectives and seed quality considerations. In Rahim Yar Khan, several agricultural crops are particularly important.
+
+## Cotton
+
+Cotton is an important cash crop in southern Punjab. Breeding programs can focus on fibre quality, crop maturity, adaptability, and resistance to common diseases and pests.
+
+Quality seed selection and appropriate testing also help farmers make better planting decisions.
+
+## Wheat
+
+Wheat is a major food crop cultivated across Punjab. Breeding efforts commonly focus on grain quality, production potential, maturity, and resistance to crop diseases.
+
+Seed testing helps assess whether wheat seed lots meet the required germination and purity standards.
+
+## Rice
+
+Rice cultivation requires suitable varieties that can perform under specific water, soil, and climatic conditions. Breeding programs can help identify varieties with desirable grain characteristics and appropriate growing requirements.
+
+Testing rice seeds before planting provides useful information about their quality and suitability.
+
+# Choosing Reliable Seed Quality and Agricultural Services
+
+Farmers and agricultural businesses should consider several factors when selecting seed-related services. Reliable facilities should use appropriate testing procedures, maintain accurate records, and follow recognised testing standards. Important considerations include:
+
+- Availability of suitable laboratory testing facilities.
+- Proper seed sample collection and handling.
+- Accurate germination and purity assessments.
+- Appropriate moisture content analysis.
+- Clear reporting of laboratory findings.
+- Knowledge of different agricultural crops.
+- Compliance with applicable seed quality requirements.
+
+Working with knowledgeable agricultural professionals can help farmers and seed suppliers understand their seed quality requirements and make more informed decisions.
+
+# Supporting the Future of Agriculture in Rahim Yar Khan
+
+Agricultural development depends on continuous improvement, reliable information, and responsible farming decisions. Modern breeding programs provide opportunities to develop crop varieties with desirable characteristics, while laboratory testing helps assess the quality of seeds before they are used.
+
+For farmers in Rahim Yar Khan, investing attention in improved seed varieties and proper seed evaluation can contribute to better crop management. Cotton, wheat, and rice production can all benefit from appropriate breeding objectives and quality control practices.
+
+As agricultural needs continue to change, collaboration between farmers, researchers, seed producers, and testing facilities will remain important. By combining scientific breeding methods with the [Seed Testing Process in Rahim Yar Khan, PK](https://tezroseed.com/), the agricultural sector can work towards stronger seed quality, informed crop selection, and sustainable farming practices.`;
+const md=s=>s.split("\n\n").map(b=>b.startsWith("## ")?`<h3>${b.slice(3)}</h3>`:b.startsWith("# ")?`<h2>${b.slice(2)}</h2>`:b.includes("\n- ")||b.startsWith("- ")?(b.split("\n- ").map((l,i)=>i==0&&!b.startsWith("- ")?`<p>${l}</p><ul class="chk">`:`<li>${l.replace(/^- /,"")}</li>`).join("")+"</ul>"):`<p>${b}</p>`).join("").replace(/\*\*([^*]+)\*\*/g,"<b>$1</b>").replace(/\[([^\]]+)\]\(([^)]+)\)/g,'<a href="$2" target="_blank" rel="noopener">$1</a>');
+const WHY=[["🧪","Tested Quality","Reliable seed testing for purity and germination."],["🌍","Global Partnerships","International collaboration in breeding."],["📈","Better Harvests","Research-driven practices for productive crops."],["🤝","Farmer Support","Dependable guidance on every step."]];
+
+/* ============ RENDER HELPERS ============ */
+const cards=()=>S.map(x=>`<div class="card rv tilt"><div class="im"><img src="${x.img}" alt="${x.t}" loading="lazy"></div><div class="bd"><div class="ic">${x.ic}</div><h3>${x.t}</h3><p>${x.s}</p><a class="more" href="#/${x.id}">Learn more →</a></div></div>`).join("");
+const ph=(tag,h,p)=>`<div class="ph"><span class="tag rv">${tag}</span><h1 class="rv">${h}</h1><p class="rv">${p}</p></div>`;
+const faqs=()=>FAQ.map(f=>`<div class="faq rv"><button>${f[0]}</button><div>${f[1]}</div></div>`).join("");
+const aboutBlock=()=>`<div class="split"><div class="rv"><span class="tag">About Us</span><h2>Growing the future of <em>Pakistani agriculture</em></h2><p class="lead">Tezro Seeds is committed to supporting modern agriculture in District Rahim Yar Khan through quality seed solutions and agricultural innovation, specialising in rice, cotton and wheat.</p><ul class="chk"><li>Reliable seed testing processes</li><li>Field trials & advanced breeding programs</li><li>International partnerships</li></ul></div><img class="rv" src="${S[2].img}" alt="Tezro Seed wheat"></div>`;
+
+const PAGES={
+home:()=>`
+<section class="hero"><div><span class="tag">Rice · Cotton · Wheat</span><h1>Quality Seeds for <em>Productive Harvests</em></h1><p class="lead">Research-driven seed solutions from Rahim Yar Khan — tested, trialled and bred to help farmers grow with confidence.</p><div class="btns"><a class="btn" href="#/services">Explore Services</a><a class="btn o" href="#/contact">Contact Us</a></div></div>
+<div class="hero-img" id="hi"><img src="${S[0].img}" alt="Rice field"><div class="float" style="top:8%;left:-6%"><b>3</b>Core Crops</div><div class="float" style="bottom:8%;right:-4%;animation-delay:1.5s"><b>7 Days</b>Open Weekly</div></div></section>
+<section id="about">${aboutBlock()}<div class="center rv" style="margin-top:34px"><a class="btn o" href="#/about">Read Full About Us</a></div></section>
+<section><div class="center"><span class="tag rv">What We Offer</span><h2 class="rv">Our <em>Services</em></h2><p class="lead rv">Click any service to open its own page.</p></div><div class="grid">${cards()}</div><div class="center rv" style="margin-top:44px"><a class="btn" href="#/services">Explore Services</a></div></section>
+<section id="why"><div class="center"><span class="tag rv">Why Choose Us</span><h2 class="rv">Why <em>Tezro Seed</em></h2></div><div class="grid">${WHY.map(w=>`<div class="card pad rv tilt center"><div class="ic">${w[0]}</div><h3>${w[1]}</h3><p>${w[2]}</p></div>`).join("")}</div></section>
+<section id="blog"><div class="split"><img class="rv" src="${S[4].img}" alt="Agriculture services"><div class="rv"><span class="tag">From Our Blog</span><h2>${BLOG_T.split(":")[0]}</h2><p class="lead">Improving crop quality through modern farming practices, breeding programs and the seed testing process.</p><a class="btn" href="#/blog" style="margin-top:24px">Read the Blog</a></div></div></section>
+<section id="reviews"><div class="center"><span class="tag rv">Customer Reviews</span><h2 class="rv">What <em>Farmers Say</em></h2></div><div class="grid">${REV.map(r=>`<div class="card pad rv tilt"><div class="stars">★★★★★</div><p style="margin:12px 0">“${r[2]}”</p><h3 style="font-size:1.3rem">${r[0]}</h3><small style="color:var(--mut)">${r[1]}</small></div>`).join("")}</div></section>
+<section id="faqs" style="max-width:900px"><div class="center"><span class="tag rv">FAQs</span><h2 class="rv">Frequently <em>Asked</em></h2></div><div style="margin-top:36px">${faqs()}</div></section>`,
+
+about:()=>`${ph("About Us","Rooted in <em>Research</em>","Quality seed, trusted science, productive harvests.")}
+<section>${aboutBlock()}<div class="stats rv"><div><b>3</b><br>Core Crops</div><div><b>6</b><br>Service Lines</div><div><b>7</b><br>Days a Week</div><div><b>10+</b><br>Partners & Trials</div></div></section>
+<section><div class="grid"><div class="card pad rv tilt"><div class="ic">🎯</div><h3>Our Mission</h3><p>To improve seed quality and help farmers achieve productive harvests through research-driven practices and dependable agricultural solutions.</p></div><div class="card pad rv tilt"><div class="ic">👁️</div><h3>Our Vision</h3><p>A modern, resilient agricultural sector in Punjab powered by innovation, trials and international collaboration.</p></div><div class="card pad rv tilt"><div class="ic">💎</div><h3>Our Values</h3><p>Integrity, quality, farmer-first service and continuous improvement.</p></div></div></section>`,
+
+services:()=>`${ph("Services","Our <em>Services</em>","Seed, science and support — everything a modern farm needs.")}<section><div class="grid" style="margin-top:0">${cards()}</div></section>`,
+
+
+blog:()=>`${ph("Blog","Agriculture <em>Insights</em>","Knowledge on breeding, seed testing and modern farming.")}
+<section style="max-width:900px"><img class="banner rv" src="${S[4].img}" alt="Agriculture services"><article class="blog"><span class="tag rv">Tezro Seed Blog</span><h1 class="rv">${BLOG_T}</h1>${md(BLOG)}<a class="btn" href="#/contact" style="margin-top:30px">Talk to Our Team</a></article></section>`,
+
+gallery:()=>`${ph("Gallery","Our <em>Gallery</em>","Moments from our fields, trials and programs.")}<section><div class="gal">${GAL.concat(GAL.slice(0,3)).map(g=>`<figure class="rv"><img src="${g[0]}" alt="${g[1]}" loading="lazy"><figcaption>${g[1]}</figcaption></figure>`).join("")}</div></section>`,
+
+contact:()=>`${ph("Contact Us","Let's <em>Talk</em>","Questions about seed, trials or services? We're here every day.")}
+<section><div class="split" style="align-items:start"><div class="rv"><h2>Get in <em>touch</em></h2><ul class="chk"><li>📍 ${B.addr}</li><li>📞 <a href="tel:${B.tel}">${B.phone}</a></li><li>✉️ <a href="mailto:${B.email}">${B.email}</a></li><li>🕒 ${B.hours}</li></ul><a class="btn" target="_blank" rel="noopener" href="https://wa.me/${B.tel.slice(1)}">WhatsApp Us</a></div>
+<form class="card pad rv" onsubmit="sendF(event)"><input name="n" placeholder="Your name" required><input name="p" placeholder="Phone number" required><select name="s">${S.map(x=>`<option>${x.t}</option>`).join("")}</select><textarea name="m" rows="5" placeholder="Your message" required></textarea><button class="btn">Send Message</button></form></div></section>`
+};
+S.forEach(x=>PAGES[x.id]=()=>`${ph("Service",`${x.t} <em>Seed</em>`,x.s)}
+<section><img class="banner rv" src="${x.img}" alt="${x.t}"><div class="split"><div class="rv"><span class="tag">${x.t}</span><h2>About our <em>${x.t}</em> service</h2><p class="lead">${x.p}</p><ul class="chk">${x.f.map(i=>`<li>${i}</li>`).join("")}</ul><a class="btn" href="#/contact">Enquire Now</a></div><img class="rv" src="${x.img}" alt="${x.t} detail"></div></section>
+<section><div class="center"><h2 class="rv">Other <em>Services</em></h2></div><div class="grid">${S.filter(y=>y.id!==x.id).slice(0,3).map(y=>`<div class="card rv tilt"><div class="im"><img src="${y.img}" alt="${y.t}"></div><div class="bd"><h3>${y.t}</h3><p>${y.s}</p><a class="more" href="#/${y.id}">Learn more →</a></div></div>`).join("")}</div></section>`);
+
+function sendF(e){e.preventDefault();const f=new FormData(e.target);location.href=`mailto:${B.email}?subject=${encodeURIComponent("Enquiry: "+f.get("s"))}&body=${encodeURIComponent(f.get("m")+"\n\nName: "+f.get("n")+"\nPhone: "+f.get("p"))}`}
+
+/* ============ SHELL ============ */
+document.getElementById("nav").innerHTML=`<a href="#/" data-r="home">Home</a><a href="#/about" data-r="about">About Us</a>
+<div class="dd"><span>Services ▾</span><div class="menu"><a href="#/services">All Services</a>${S.map(x=>`<a href="#/${x.id}" data-r="${x.id}">${x.ic} ${x.t}</a>`).join("")}</div></div>
+<a href="#/blog" data-r="blog">Blog</a><a href="#/gallery" data-r="gallery">Gallery</a><a href="#/contact" data-r="contact">Contact Us</a>`;
+document.getElementById("foot").innerHTML=`<div class="fg"><div><img class="logo" src="${B.logo}" alt="TEZRO SEED"><p style="color:var(--mut);font-size:.93rem">Quality rice, cotton and wheat seed solutions backed by trials, testing and breeding.</p></div>
+<div><h4>QUICK LINKS</h4><ul><li><a href="#/">Home</a></li><li><a href="#/about">About Us</a></li><li><a href="#/services">Services</a></li><li><a href="#/blog">Blog</a></li><li><a href="#/contact">Contact</a></li></ul></div>
+<div><h4>CONTACT INFORMATION</h4><ul><li>📍 ${B.addr}</li><li>📞 <a href="tel:${B.tel}">${B.phone}</a></li><li>✉️ <a href="mailto:${B.email}">${B.email}</a></li><li>🕒 ${B.hours}</li></ul></div>
+<div><h4>FIND US</h4><iframe loading="lazy" title="Map" src="https://maps.google.com/maps?q=Zahir%20Peer%20Rahim%20Yar%20Khan%20Punjab%20Pakistan&output=embed"></iframe></div></div>
+<div class="copy">© ${new Date().getFullYear()} TEZRO SEED. All rights reserved.</div>`;
+document.getElementById("burger").onclick=()=>document.getElementById("nav").classList.toggle("open");
+
+function route(){
+ const r=(location.hash.replace("#/","")||"home").split("#")[0]||"home";
+ const k=PAGES[r]?r:"home";
+ document.getElementById("app").innerHTML=PAGES[k]();
+ document.querySelectorAll("nav a").forEach(a=>a.classList.toggle("on",a.dataset.r===k));
+ document.getElementById("nav").classList.remove("open");
+ document.title=(k==="home"?"":k.replace(/-/g," ").replace(/\b\w/g,c=>c.toUpperCase())+" | ")+"TEZRO SEED";
+ window.scrollTo(0,0);
+ const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.target.classList.add("in");io.unobserve(e.target)}}),{threshold:.12});
+ document.querySelectorAll(".rv").forEach((el,i)=>{el.style.transitionDelay=(i%4)*90+"ms";io.observe(el)});
+ document.querySelectorAll(".faq button").forEach(b=>b.onclick=()=>b.parentNode.classList.toggle("open"));
+ document.querySelectorAll(".tilt").forEach(c=>{
+  c.onmousemove=e=>{const r=c.getBoundingClientRect(),x=(e.clientX-r.left)/r.width-.5,y=(e.clientY-r.top)/r.height-.5;c.style.transform=`perspective(800px) rotateY(${x*14}deg) rotateX(${-y*14}deg) translateZ(10px)`;c.style.transitionDelay="0ms"};
+  c.onmouseleave=()=>c.style.transform=""});
+ const hi=document.getElementById("hi");
+ if(hi)document.querySelector(".hero").onmousemove=e=>{const x=e.clientX/innerWidth-.5,y=e.clientY/innerHeight-.5;hi.style.transform=`rotateY(${x*16}deg) rotateX(${-y*12}deg)`};
+}
+addEventListener("hashchange",route);route();
+addEventListener("load",()=>setTimeout(()=>document.getElementById("loader").classList.add("done"),2200));
+
+/* ============ 3D BACKGROUND (Three.js) ============ */
+if(VIDEO_URL){const v=document.getElementById("vid");v.src=VIDEO_URL;v.style.display="block"}
+(function(){
+ if(!window.THREE)return;
+ const cv=document.getElementById("bg"),R=new THREE.WebGLRenderer({canvas:cv,alpha:true,antialias:true});
+ R.setPixelRatio(Math.min(devicePixelRatio,2));
+ const sc=new THREE.Scene(),cam=new THREE.PerspectiveCamera(60,1,.1,300);
+ sc.fog=new THREE.Fog(0x06110b,25,110);
+ const rnd=(a,b)=>a+Math.random()*(b-a);
+ const gold=new THREE.MeshBasicMaterial({color:0xe0b84c}),stemM=new THREE.MeshBasicMaterial({color:0x2a8f55}),
+  white=new THREE.MeshBasicMaterial({color:0xf4f1e8}),leafM=new THREE.MeshBasicMaterial({color:0x3ddc84,side:2,transparent:true,opacity:.55});
+ /* ground */
+ const gr=new THREE.Mesh(new THREE.PlaneGeometry(260,260,52,52),new THREE.MeshBasicMaterial({color:0x12a150,wireframe:true,transparent:true,opacity:.14}));
+ gr.rotation.x=-Math.PI/2;gr.position.y=-10;sc.add(gr);
+ /* wheat ears */
+ const grain=new THREE.SphereGeometry(.28,6,6),stemG=new THREE.CylinderGeometry(.05,.09,14,5),ears=[];
+ for(let n=0;n<85;n++){const g=new THREE.Group(),s=new THREE.Mesh(stemG,stemM);s.position.y=-7;g.add(s);
+  for(let k=0;k<9;k++)for(const d of[-1,1]){const m=new THREE.Mesh(grain,gold);m.scale.set(.7,1.6,.7);m.position.set(d*.26,k*.5,0);m.rotation.z=-d*.45;g.add(m)}
+  g.position.set(rnd(-45,45),-10+rnd(-1,1),rnd(-130,40));g.userData.p=rnd(0,6);sc.add(g);ears.push(g)}
+ /* floating seeds, leaves, cotton bolls */
+ const fl=[];
+ for(let n=0;n<70;n++){const m=new THREE.Mesh(grain,gold);m.scale.set(1,1.9,1);m.position.set(rnd(-50,50),rnd(-8,25),rnd(-130,35));m.userData.v=rnd(.2,.8);sc.add(m);fl.push(m)}
+ const lg=new THREE.CircleGeometry(.9,10);
+ for(let n=0;n<45;n++){const m=new THREE.Mesh(lg,leafM);m.scale.set(.5,1.6,1);m.position.set(rnd(-50,50),rnd(-6,24),rnd(-130,35));m.userData.v=rnd(.3,1);sc.add(m);fl.push(m)}
+ for(let n=0;n<14;n++){const g=new THREE.Group();for(let k=0;k<5;k++){const m=new THREE.Mesh(new THREE.SphereGeometry(.7,8,8),white);m.position.set(rnd(-.7,.7),rnd(-.6,.6),rnd(-.7,.7));g.add(m)}
+  g.position.set(rnd(-40,40),rnd(-4,20),rnd(-130,30));g.userData.v=rnd(.2,.5);sc.add(g);fl.push(g)}
+ /* pollen */
+ const N=1500,p=new Float32Array(N*3);for(let i=0;i<N;i+=1){p[i*3]=rnd(-60,60);p[i*3+1]=rnd(-10,30);p[i*3+2]=rnd(-130,40)}
+ const pg=new THREE.BufferGeometry();pg.setAttribute("position",new THREE.BufferAttribute(p,3));
+ sc.add(new THREE.Points(pg,new THREE.PointsMaterial({color:0xe0b84c,size:.18,transparent:true,opacity:.7})));
+ let sy=0,mx=0,my=0;
+ addEventListener("scroll",()=>sy=scrollY);addEventListener("mousemove",e=>{mx=e.clientX/innerWidth-.5;my=e.clientY/innerHeight-.5});
+ function rs(){R.setSize(innerWidth,innerHeight);cam.aspect=innerWidth/innerHeight;cam.updateProjectionMatrix()}rs();addEventListener("resize",rs);
+ (function loop(t){requestAnimationFrame(loop);t*=.001;
+  const prog=sy/Math.max(1,document.body.scrollHeight-innerHeight);
+  cam.position.z=32-prog*140;cam.position.y=2+Math.sin(prog*6)*2;cam.position.x+=((mx*10)-cam.position.x)*.04;
+  cam.rotation.z=Math.sin(prog*5)*.08;cam.rotation.x=-my*.08;
+  ears.forEach(e=>e.rotation.z=Math.sin(t*.9+e.userData.p)*.07);
+  fl.forEach(m=>{m.rotation.y+=.01*m.userData.v;m.rotation.x+=.008*m.userData.v;m.position.y+=Math.sin(t+m.position.x)*.01});
+  R.render(sc,cam)})(0);
+})();
+</script>
+</body>
+</html>
